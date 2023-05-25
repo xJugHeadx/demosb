@@ -8,3 +8,5 @@ Proyecto en Java con Spring Boot
 ## DESCRIPCION DEL PROYECTO
 
 Es un proyecto para la gestión de barrios, fomentar la seguridad en los mismos, dar comunicados a los habitantes, en el cual se informa a los habitantes de sucesos que ocurren en su barrio, alertas entre otras funciones...
+
+© Copyright 2023 [ISTLRG](https://insteclrg.edu.ec)
