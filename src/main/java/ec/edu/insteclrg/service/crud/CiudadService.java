@@ -4,18 +4,20 @@ import java.util.Optional;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import ec.edu.insteclrg.domain.Ciudad;
 import ec.edu.insteclrg.dto.CiudadDTO;
 import ec.edu.insteclrg.persistence.CiudadRepository;
 import ec.edu.insteclrg.service.GenericCrudServiceImpl;
 
+@Service
 public class CiudadService extends GenericCrudServiceImpl<Ciudad, CiudadDTO>{
 
 	@Autowired
 	private CiudadRepository repository;
 	
-	private ModelMapper modelMapper;
+	private ModelMapper modelMapper = new ModelMapper();
 	
 	@Override
 	public Optional<Ciudad> find(CiudadDTO dto) {
